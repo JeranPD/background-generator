@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h1>Megane Restawrant</h1>
+        <div class="btns">
+            <button class="btn" data-id="all">All</button>
+            <button class="btn" data-id="breakfast">Breakfast</button>
+            <button class="btn" data-id="lunch">Lunch</button>
+            <button class="btn" data-id="snacks">Snacks</button>
+            <button class="btn" data-id="dinner">Dinner</button>
+        </div>
+        <div class="menu-container">
+            <div class="menu-section">
+                <div class="menu">
+                </div>
+            </div>
+            <div class="menu-btns">
+                <button class="item-btn" data-id="0">View</button>
+                <button class="item-btn" data-id="1">View</button>
+                <button class="item-btn" data-id="2">View</button>
+                <button class="item-btn" data-id="3">View</button>
+            </div>
+        </div>
+        
+        
+        <div class="modal-overlay">
+            <button class="close">X</button>
+            <div class="photo-section">
+                <img src="img/burger.jpg" class="menu-photo" alt="">
+            </div>
+            <div class="slide-btn">
+                <button class="left slidebtn"><</button>
+                <button class="right slidebtn">></button>
+            </div>
+            
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
